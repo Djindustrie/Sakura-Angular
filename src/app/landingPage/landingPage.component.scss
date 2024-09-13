@@ -1,9 +1,27 @@
 h1 {
-    color: royalblue;
+    color: white;
+    font-size: 64px;
 }
+
+h2 {
+    color: white;
+    font-size: 32px;
+}
+
+.fontRaleway {
+    font-family: 'Raleway';
+}
+
 
 section {
     height: 100vh;
     width: 100%;
-    background-image: url('./../../assets/img/1_hero/JPG/hero_bg.jpg');
+    background-image: url(./../../assets/img/1_hero/JPG/hero_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
