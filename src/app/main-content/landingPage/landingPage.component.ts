@@ -9,8 +9,10 @@ import { NavbarComponent } from './navbar/navbar.component';
     template: `
     <section>
         <app-navbar></app-navbar>
+        <div>
         <h1 class="fontRaleway">SAKURA RAMEN</h1>
         <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
+        </div>
     </section>`,
     styleUrls: ['./landingPage.component.scss']
 })
