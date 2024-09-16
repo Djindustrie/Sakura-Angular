@@ -1,5 +1,36 @@
 nav {
     width: 100%;
     padding: 32px;
-    
+    display: flex;
+    justify-content: space-between;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div {
+        width: 380px;
+        display: flex;
+        align-items: center;
+        >a {
+            padding-right: 16px;
+            &:hover {
+                color: rgb(231, 233, 120);
+            }
+        }
+        >div {
+            display: flex;
+            align-items: center;
+            >a {
+                padding-left: 6px;
+                &:hover {
+                    color: rgb(231, 233, 120);
+                }
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
