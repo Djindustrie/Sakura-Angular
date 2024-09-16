@@ -7,3 +7,25 @@ h2 {
     justify-content: center;
     padding: 120px 0 64px 0;
 }
+
+p {
+    color: black;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+img {
+    width: 128px;
+    object-fit: cover;
+}
+
+.howToOrderDiv {
+    display: flex;
+    justify-content: space-around;
+    >div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
