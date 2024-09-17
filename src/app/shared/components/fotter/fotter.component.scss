@@ -18,3 +18,16 @@
         }
     }
 }
+
+.sakura_logo {
+    display: none;
+}
+
+@media (max-width: 540px) {
+    .sakura_logo {
+        display: block;
+    }
+    .sakura_logo_and_text {
+        display: none;
+    }
+}

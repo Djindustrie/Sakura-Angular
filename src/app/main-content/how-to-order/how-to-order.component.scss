@@ -30,3 +30,24 @@ img {
         justify-content: center;
     }
 }
+
+@media (max-width: 780px) {
+    p {
+        font-size: 32px;
+    }
+    img {
+        width: 64px;
+    }
+}
+
+@media (max-width: 550px) {
+    h2 {
+        font-size: 56px;
+    }
+    p {
+        font-size: 26px;
+    }
+    img {
+        width: 64px;
+    }
+}

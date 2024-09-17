@@ -1,17 +1,14 @@
 h1 {
     color: white;
     font-size: 64px;
+    font-family: 'Raleway';
 }
 
 h2 {
     color: white;
     font-size: 32px;
-}
-
-.fontRaleway {
     font-family: 'Raleway';
 }
-
 
 section {
     height: 100vh;
@@ -29,3 +26,11 @@ section {
     }
 }
 
+@media (max-width: 550px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+}

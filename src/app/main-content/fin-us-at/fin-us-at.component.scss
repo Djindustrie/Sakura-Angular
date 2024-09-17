@@ -24,3 +24,16 @@ img {
     height: 28px;
     object-fit: cover;
 }
+
+@media (max-width: 470px) {
+    h2 {
+        font-size: 56px;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
